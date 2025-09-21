@@ -52,7 +52,7 @@ img = PhotoImage(file="logo-3.png")  # your logo file
 canvas.create_image(100, 60, image=img)
 canvas.grid(row=0, column=0, padx=120)
 
-# Upload button
+
 drag = tk.Button(
     text="Upload Files To Merge",
     command=upload_files,
